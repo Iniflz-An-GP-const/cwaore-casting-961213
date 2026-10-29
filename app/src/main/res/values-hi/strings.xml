@@ -1,0 +1,65 @@
+<resources>
+    <string name="back_icon_description">पीछे जाएँ</string>
+    <string name="gtenp_app_logo_description">गेम का लोगो</string>
+    <string name="gtenp_main_menu_tagline">हर जोड़ी मिलाएँ</string>
+    <string name="main_menu_play">शुरू करें</string>
+    <string name="main_menu_high_scores">सर्वश्रेष्ठ स्कोर</string>
+    <string name="main_menu_about">गेम की जानकारी</string>
+    <string name="main_menu_exit">बंद करें</string>
+    <string name="menu_start_summary_format">%1$s · %2$d कार्ड का बोर्ड</string>
+    <string name="menu_scores_moves_label">चालें</string>
+    <string name="menu_scores_time_label">अवधि</string>
+    <string name="menu_scores_empty">रिकॉर्ड बनाने के लिए गेम पूरा करें</string>
+    <string name="menu_about_subtitle">जानकारी और नियम</string>
+    <string name="menu_exit_subtitle">गेम बंद करें</string>
+    <string name="menu_previous_difficulty">आसान स्तर</string>
+    <string name="menu_next_difficulty">कठिन स्तर</string>
+    <string name="gtenp_difficulty_title">स्तर चुनें</string>
+    <string name="difficulty_easy">शुरुआती</string>
+    <string name="difficulty_medium">सामान्य</string>
+    <string name="difficulty_hard">विशेषज्ञ</string>
+    <string name="difficulty_pairs_format">जोड़ियाँ: %1$d</string>
+    <string name="difficulty_cards_pairs_format">%1$d कार्ड · जोड़ियाँ: %2$d</string>
+    <string name="game_moves_format">चालें: %1$d</string>
+    <string name="game_preview_format">याद करें! %1$d</string>
+    <string name="game_playing_hint">कार्ड मिलाएँ</string>
+    <string name="game_best_none">रिकॉर्ड: –</string>
+    <string name="game_best_format">रिकॉर्ड: %1$d चालें · %2$s</string>
+    <string name="game_time_format">बीता समय: %1$s</string>
+    <string name="game_hud_moves_label">चालें</string>
+    <string name="game_hud_time_label">बीता समय</string>
+    <string name="game_hud_pairs_label">मेल</string>
+    <string name="game_hud_pairs_format">%1$d में से %2$d</string>
+    <string name="game_hud_minimal_format">%1$d चालें · %2$s</string>
+    <string name="game_finished_title">बोर्ड पूरा हुआ!</string>
+    <string name="game_finished_moves_format">चालें: %1$d</string>
+    <string name="game_finished_time_format">पूरा समय: %1$s</string>
+    <string name="game_finished_new_record_format">%1$s — नया रिकॉर्ड!</string>
+    <string name="game_play_again">एक और गेम</string>
+    <string name="game_main_menu">होम स्क्रीन</string>
+    <string name="dialog_exit_title">यह राउंड छोड़ें?</string>
+    <string name="dialog_exit_message">इस राउंड की प्रगति मिट जाएगी।</string>
+    <string name="dialog_action_confirm">राउंड छोड़ें</string>
+    <string name="dialog_action_cancel">खेलते रहें</string>
+    <string name="gtenp_high_scores_title">सर्वश्रेष्ठ नतीजे</string>
+    <string name="high_scores_empty">रिकॉर्ड यहाँ दिखाई देंगे</string>
+    <string name="high_scores_filter_moves">चालें</string>
+    <string name="high_scores_filter_time">अवधि</string>
+    <string name="high_scores_filter_date">खेला गया</string>
+    <string name="high_score_card_score_format">%1$d चालें · %2$s</string>
+    <string name="high_score_card_rank_format">स्थान %1$d</string>
+    <string name="high_score_card_moves_label">चालें</string>
+    <string name="high_score_card_time_label">अवधि</string>
+    <string name="high_score_card_date_label">खेला गया</string>
+    <string name="gtenp_about_title">गेम का विवरण</string>
+    <string name="about_rules_title">खेलने की विधि</string>
+    <string name="about_version_format">रिलीज़ %1$s</string>
+    <string name="about_developer_label">निर्माता</string>
+    <string name="about_contact_label">संपर्क करें</string>
+    <string-array name="about_rules">
+        <item>कुछ सेकंड तक सभी कार्ड खुले रहते हैं — हर कार्ड की जगह याद करें।</item>
+        <item>फिर कार्ड उलट जाते हैं। किसी कार्ड को खोलने के लिए उस पर टैप करें।</item>
+        <item>खोले गए कार्ड से मेल खाने वाला कार्ड ढूँढें।</item>
+        <item>स्तर चुनें: कठिन स्तर पर बोर्ड में अधिक कार्ड होते हैं।</item>
+    </string-array>
+</resources>

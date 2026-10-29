@@ -1,0 +1,65 @@
+<resources>
+    <string name="back_icon_description">Zurückgehen</string>
+    <string name="gtenp_app_logo_description">Spiellogo</string>
+    <string name="gtenp_main_menu_tagline">Finde jedes Paar</string>
+    <string name="main_menu_play">Starten</string>
+    <string name="main_menu_high_scores">Bestwerte</string>
+    <string name="main_menu_about">Spielinfo</string>
+    <string name="main_menu_exit">Beenden</string>
+    <string name="menu_start_summary_format">%1$s · Feld mit %2$d Karten</string>
+    <string name="menu_scores_moves_label">Züge</string>
+    <string name="menu_scores_time_label">Dauer</string>
+    <string name="menu_scores_empty">Beende ein Spiel für einen Rekord</string>
+    <string name="menu_about_subtitle">Infos und Regeln</string>
+    <string name="menu_exit_subtitle">Spiel beenden</string>
+    <string name="menu_previous_difficulty">Leichteres Level</string>
+    <string name="menu_next_difficulty">Schwereres Level</string>
+    <string name="gtenp_difficulty_title">Level wählen</string>
+    <string name="difficulty_easy">Anfänger</string>
+    <string name="difficulty_medium">Normal</string>
+    <string name="difficulty_hard">Experte</string>
+    <string name="difficulty_pairs_format">Paare: %1$d</string>
+    <string name="difficulty_cards_pairs_format">%1$d Karten · Paare: %2$d</string>
+    <string name="game_moves_format">Züge: %1$d</string>
+    <string name="game_preview_format">Einprägen! %1$d</string>
+    <string name="game_playing_hint">Karten zuordnen</string>
+    <string name="game_best_none">Rekord: –</string>
+    <string name="game_best_format">Rekord: %1$d Züge · %2$s</string>
+    <string name="game_time_format">Vergangen: %1$s</string>
+    <string name="game_hud_moves_label">Züge</string>
+    <string name="game_hud_time_label">Vergangen</string>
+    <string name="game_hud_pairs_label">Treffer</string>
+    <string name="game_hud_pairs_format">%1$d von %2$d</string>
+    <string name="game_hud_minimal_format">%1$d Züge · %2$s</string>
+    <string name="game_finished_title">Feld abgeräumt!</string>
+    <string name="game_finished_moves_format">Züge: %1$d</string>
+    <string name="game_finished_time_format">Geschafft in: %1$s</string>
+    <string name="game_finished_new_record_format">%1$s — Rekord gebrochen!</string>
+    <string name="game_play_again">Noch ein Spiel</string>
+    <string name="game_main_menu">Startseite</string>
+    <string name="dialog_exit_title">Runde beenden?</string>
+    <string name="dialog_exit_message">Der Fortschritt dieser Runde geht verloren.</string>
+    <string name="dialog_action_confirm">Runde beenden</string>
+    <string name="dialog_action_cancel">Weiterspielen</string>
+    <string name="gtenp_high_scores_title">Beste Ergebnisse</string>
+    <string name="high_scores_empty">Rekorde erscheinen hier</string>
+    <string name="high_scores_filter_moves">Züge</string>
+    <string name="high_scores_filter_time">Dauer</string>
+    <string name="high_scores_filter_date">Gespielt</string>
+    <string name="high_score_card_score_format">%1$d Züge · %2$s</string>
+    <string name="high_score_card_rank_format">Rang %1$d</string>
+    <string name="high_score_card_moves_label">Züge</string>
+    <string name="high_score_card_time_label">Dauer</string>
+    <string name="high_score_card_date_label">Gespielt</string>
+    <string name="gtenp_about_title">Spieldetails</string>
+    <string name="about_rules_title">Spielanleitung</string>
+    <string name="about_version_format">Version %1$s</string>
+    <string name="about_developer_label">Erstellt von</string>
+    <string name="about_contact_label">Kontakt</string>
+    <string-array name="about_rules">
+        <item>Für einige Sekunden liegen alle Karten offen — präge dir jede Position ein.</item>
+        <item>Dann drehen sich die Karten um. Tippe eine an, um sie aufzudecken.</item>
+        <item>Suche die Karte, die zur aufgedeckten Karte passt.</item>
+        <item>Wähle ein Level: Je schwieriger, desto mehr Karten liegen auf dem Feld.</item>
+    </string-array>
+</resources>

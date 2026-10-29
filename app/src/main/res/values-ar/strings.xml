@@ -1,0 +1,65 @@
+<resources>
+    <string name="back_icon_description">الرجوع</string>
+    <string name="gtenp_app_logo_description">شعار اللعبة</string>
+    <string name="gtenp_main_menu_tagline">طابق كل الأزواج</string>
+    <string name="main_menu_play">ابدأ</string>
+    <string name="main_menu_high_scores">أفضل النتائج</string>
+    <string name="main_menu_about">معلومات اللعبة</string>
+    <string name="main_menu_exit">خروج</string>
+    <string name="menu_start_summary_format">\u200E%1$s · %2$d\u200E بطاقة</string>
+    <string name="menu_scores_moves_label">المحاولات</string>
+    <string name="menu_scores_time_label">المدة</string>
+    <string name="menu_scores_empty">أكمل لعبة لتسجيل رقم قياسي</string>
+    <string name="menu_about_subtitle">المعلومات والقواعد</string>
+    <string name="menu_exit_subtitle">الخروج من اللعبة</string>
+    <string name="menu_previous_difficulty">مستوى أسهل</string>
+    <string name="menu_next_difficulty">مستوى أصعب</string>
+    <string name="gtenp_difficulty_title">اختر المستوى</string>
+    <string name="difficulty_easy">مبتدئ</string>
+    <string name="difficulty_medium">عادي</string>
+    <string name="difficulty_hard">خبير</string>
+    <string name="difficulty_pairs_format">الأزواج: \u200E%1$d\u200E</string>
+    <string name="difficulty_cards_pairs_format">\u200E%1$d · %2$d\u200E بطاقة وزوجًا</string>
+    <string name="game_moves_format">المحاولات: \u200E%1$d\u200E</string>
+    <string name="game_preview_format">تذكّر! \u200E%1$d\u200E</string>
+    <string name="game_playing_hint">طابق البطاقات</string>
+    <string name="game_best_none">الرقم القياسي: –</string>
+    <string name="game_best_format">الرقم القياسي: \u200E%1$d · %2$s\u200E</string>
+    <string name="game_time_format">الوقت المنقضي: \u200E%1$s\u200E</string>
+    <string name="game_hud_moves_label">المحاولات</string>
+    <string name="game_hud_time_label">الوقت</string>
+    <string name="game_hud_pairs_label">التطابقات</string>
+    <string name="game_hud_pairs_format">\u200E%1$d من %2$d\u200E</string>
+    <string name="game_hud_minimal_format">\u200E%1$d · %2$s\u200E محاولة ووقتًا</string>
+    <string name="game_finished_title">اكتمل اللوح!</string>
+    <string name="game_finished_moves_format">المحاولات: \u200E%1$d\u200E</string>
+    <string name="game_finished_time_format">اكتملت في: \u200E%1$s\u200E</string>
+    <string name="game_finished_new_record_format">\u200E%1$s\u200E — حطمت الرقم القياسي!</string>
+    <string name="game_play_again">لعبة أخرى</string>
+    <string name="game_main_menu">الشاشة الرئيسية</string>
+    <string name="dialog_exit_title">الخروج من الجولة؟</string>
+    <string name="dialog_exit_message">سيتم فقدان تقدم هذه الجولة.</string>
+    <string name="dialog_action_confirm">اخرج من الجولة</string>
+    <string name="dialog_action_cancel">واصل اللعب</string>
+    <string name="gtenp_high_scores_title">أفضل الإنجازات</string>
+    <string name="high_scores_empty">ستظهر الأرقام القياسية هنا</string>
+    <string name="high_scores_filter_moves">المحاولات</string>
+    <string name="high_scores_filter_time">المدة</string>
+    <string name="high_scores_filter_date">تاريخ اللعب</string>
+    <string name="high_score_card_score_format">\u200E%1$d · %2$s\u200E محاولة ووقتًا</string>
+    <string name="high_score_card_rank_format">الترتيب \u200E%1$d\u200E</string>
+    <string name="high_score_card_moves_label">المحاولات</string>
+    <string name="high_score_card_time_label">المدة</string>
+    <string name="high_score_card_date_label">تاريخ اللعب</string>
+    <string name="gtenp_about_title">تفاصيل اللعبة</string>
+    <string name="about_rules_title">دليل اللعب</string>
+    <string name="about_version_format">الإصدار \u200E%1$s\u200E</string>
+    <string name="about_developer_label">من إنشاء</string>
+    <string name="about_contact_label">تواصل معنا</string>
+    <string-array name="about_rules">
+        <item>تظهر كل البطاقات مكشوفة لبضع ثوانٍ — احفظ مكان كل بطاقة.</item>
+        <item>ثم تُقلب البطاقات. اضغط على بطاقة لكشفها.</item>
+        <item>ابحث عن البطاقة المطابقة للبطاقة التي كشفتها.</item>
+        <item>اختر مستوى: كلما زادت الصعوبة، زاد عدد البطاقات على اللوح.</item>
+    </string-array>
+</resources>

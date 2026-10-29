@@ -1,0 +1,65 @@
+<resources>
+    <string name="back_icon_description">Revenir en arrière</string>
+    <string name="gtenp_app_logo_description">Logo du jeu</string>
+    <string name="gtenp_main_menu_tagline">Associez toutes les paires</string>
+    <string name="main_menu_play">Commencer</string>
+    <string name="main_menu_high_scores">Meilleurs scores</string>
+    <string name="main_menu_about">Infos du jeu</string>
+    <string name="main_menu_exit">Quitter</string>
+    <string name="menu_start_summary_format">%1$s · plateau de %2$d cartes</string>
+    <string name="menu_scores_moves_label">Coups</string>
+    <string name="menu_scores_time_label">Durée</string>
+    <string name="menu_scores_empty">Terminez une partie pour établir un record</string>
+    <string name="menu_about_subtitle">Infos et règles</string>
+    <string name="menu_exit_subtitle">Quitter le jeu</string>
+    <string name="menu_previous_difficulty">Niveau plus facile</string>
+    <string name="menu_next_difficulty">Niveau plus difficile</string>
+    <string name="gtenp_difficulty_title">Choisir un niveau</string>
+    <string name="difficulty_easy">Débutant</string>
+    <string name="difficulty_medium">Normal</string>
+    <string name="difficulty_hard">Expert</string>
+    <string name="difficulty_pairs_format">Paires : %1$d</string>
+    <string name="difficulty_cards_pairs_format">%1$d cartes · paires : %2$d</string>
+    <string name="game_moves_format">Coups : %1$d</string>
+    <string name="game_preview_format">Mémorisez ! %1$d</string>
+    <string name="game_playing_hint">Associez les cartes</string>
+    <string name="game_best_none">Record : –</string>
+    <string name="game_best_format">Record : %1$d coups · %2$s</string>
+    <string name="game_time_format">Écoulé : %1$s</string>
+    <string name="game_hud_moves_label">Coups</string>
+    <string name="game_hud_time_label">Écoulé</string>
+    <string name="game_hud_pairs_label">Paires</string>
+    <string name="game_hud_pairs_format">%1$d sur %2$d</string>
+    <string name="game_hud_minimal_format">%1$d coups · %2$s</string>
+    <string name="game_finished_title">Plateau terminé !</string>
+    <string name="game_finished_moves_format">Coups : %1$d</string>
+    <string name="game_finished_time_format">Terminé en : %1$s</string>
+    <string name="game_finished_new_record_format">%1$s — record battu !</string>
+    <string name="game_play_again">Autre partie</string>
+    <string name="game_main_menu">Écran d\'accueil</string>
+    <string name="dialog_exit_title">Quitter cette manche ?</string>
+    <string name="dialog_exit_message">La progression de cette manche sera perdue.</string>
+    <string name="dialog_action_confirm">Quitter la manche</string>
+    <string name="dialog_action_cancel">Continuer</string>
+    <string name="gtenp_high_scores_title">Meilleurs résultats</string>
+    <string name="high_scores_empty">Les records apparaîtront ici</string>
+    <string name="high_scores_filter_moves">Coups</string>
+    <string name="high_scores_filter_time">Durée</string>
+    <string name="high_scores_filter_date">Partie</string>
+    <string name="high_score_card_score_format">%1$d coups · %2$s</string>
+    <string name="high_score_card_rank_format">Rang %1$d</string>
+    <string name="high_score_card_moves_label">Coups</string>
+    <string name="high_score_card_time_label">Durée</string>
+    <string name="high_score_card_date_label">Partie</string>
+    <string name="gtenp_about_title">Détails du jeu</string>
+    <string name="about_rules_title">Guide de jeu</string>
+    <string name="about_version_format">Version %1$s</string>
+    <string name="about_developer_label">Créé par</string>
+    <string name="about_contact_label">Nous contacter</string>
+    <string-array name="about_rules">
+        <item>Pendant quelques secondes, toutes les cartes sont visibles — mémorisez leur position.</item>
+        <item>Les cartes se retournent ensuite. Touchez-en une pour la révéler.</item>
+        <item>Cherchez la carte identique à celle que vous avez révélée.</item>
+        <item>Choisissez un niveau : plus il est difficile, plus le plateau contient de cartes.</item>
+    </string-array>
+</resources>

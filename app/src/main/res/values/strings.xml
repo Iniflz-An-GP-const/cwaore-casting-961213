@@ -2,86 +2,86 @@
     <string name="app_name" translatable="false">Cwaore Casting</string>
 
     <!-- shared -->
-    <string name="back_icon_description">Back</string>
-    <string name="gtenp_app_logo_description">App logo</string>
+    <string name="back_icon_description">Go back</string>
+    <string name="gtenp_app_logo_description">Game logo</string>
 
     <!-- splash screen -->
-    <string name="gtenp_main_menu_tagline">Find all the pairs</string>
+    <string name="gtenp_main_menu_tagline">Match every pair</string>
 
     <!-- main menu -->
-    <string name="main_menu_play">Play</string>
-    <string name="main_menu_high_scores">High Scores</string>
-    <string name="main_menu_about">About</string>
-    <string name="main_menu_exit">Exit</string>
-    <string name="menu_start_summary_format">%1$s · %2$d cards</string>
-    <string name="menu_scores_moves_label">Moves</string>
-    <string name="menu_scores_time_label">Time</string>
-    <string name="menu_scores_empty">Play to set a record</string>
-    <string name="menu_about_subtitle">Rules and info</string>
-    <string name="menu_exit_subtitle">Close the app</string>
-    <string name="menu_previous_difficulty">Previous difficulty</string>
-    <string name="menu_next_difficulty">Next difficulty</string>
+    <string name="main_menu_play">Start</string>
+    <string name="main_menu_high_scores">Best Scores</string>
+    <string name="main_menu_about">Game Info</string>
+    <string name="main_menu_exit">Quit</string>
+    <string name="menu_start_summary_format">%1$s · %2$d-card board</string>
+    <string name="menu_scores_moves_label">Turns</string>
+    <string name="menu_scores_time_label">Duration</string>
+    <string name="menu_scores_empty">Finish a game to set a record</string>
+    <string name="menu_about_subtitle">Info and rules</string>
+    <string name="menu_exit_subtitle">Quit the game</string>
+    <string name="menu_previous_difficulty">Easier level</string>
+    <string name="menu_next_difficulty">Harder level</string>
 
     <!-- difficulty -->
-    <string name="gtenp_difficulty_title">Difficulty</string>
-    <string name="difficulty_easy">Easy</string>
-    <string name="difficulty_medium">Medium</string>
-    <string name="difficulty_hard">Hard</string>
-    <string name="difficulty_pairs_format">%1$d pairs</string>
-    <string name="difficulty_cards_pairs_format">%1$d cards · %2$d pairs</string>
+    <string name="gtenp_difficulty_title">Choose a Level</string>
+    <string name="difficulty_easy">Beginner</string>
+    <string name="difficulty_medium">Normal</string>
+    <string name="difficulty_hard">Expert</string>
+    <string name="difficulty_pairs_format">Pairs: %1$d</string>
+    <string name="difficulty_cards_pairs_format">%1$d cards · pairs: %2$d</string>
 
     <!-- game screen -->
-    <string name="game_moves_format">Moves: %1$d</string>
-    <string name="game_preview_format">Remember! %1$d</string>
-    <string name="game_playing_hint">Find the pairs</string>
-    <string name="game_best_none">Best: –</string>
-    <string name="game_best_format">Best: %1$d moves · %2$s</string>
-    <string name="game_time_format">Time: %1$s</string>
-    <string name="game_hud_moves_label">Moves</string>
-    <string name="game_hud_time_label">Time</string>
-    <string name="game_hud_pairs_label">Pairs</string>
-    <string name="game_hud_pairs_format">%1$d / %2$d</string>
-    <string name="game_hud_minimal_format">%1$d moves · %2$s</string>
+    <string name="game_moves_format">Turns: %1$d</string>
+    <string name="game_preview_format">Memorize! %1$d</string>
+    <string name="game_playing_hint">Match the cards</string>
+    <string name="game_best_none">Record: –</string>
+    <string name="game_best_format">Record: %1$d turns · %2$s</string>
+    <string name="game_time_format">Elapsed: %1$s</string>
+    <string name="game_hud_moves_label">Turns</string>
+    <string name="game_hud_time_label">Elapsed</string>
+    <string name="game_hud_pairs_label">Matches</string>
+    <string name="game_hud_pairs_format">%1$d of %2$d</string>
+    <string name="game_hud_minimal_format">%1$d turns · %2$s</string>
 
     <!-- game finished dialog -->
-    <string name="game_finished_title">You won!</string>
-    <string name="game_finished_moves_format">Moves: %1$d</string>
-    <string name="game_finished_time_format">Time: %1$s</string>
-    <string name="game_finished_new_record_format">%1$s — new record!</string>
-    <string name="game_play_again">Play again</string>
-    <string name="game_main_menu">Main menu</string>
+    <string name="game_finished_title">Board cleared!</string>
+    <string name="game_finished_moves_format">Turns: %1$d</string>
+    <string name="game_finished_time_format">Finished in: %1$s</string>
+    <string name="game_finished_new_record_format">%1$s — record broken!</string>
+    <string name="game_play_again">Another game</string>
+    <string name="game_main_menu">Home screen</string>
 
     <!-- exit dialog -->
-    <string name="dialog_exit_title">Leave the game?</string>
-    <string name="dialog_exit_message">Your current progress will be lost.</string>
-    <string name="dialog_action_confirm">Leave</string>
-    <string name="dialog_action_cancel">Stay</string>
+    <string name="dialog_exit_title">Quit this round?</string>
+    <string name="dialog_exit_message">This round\'s progress will be discarded.</string>
+    <string name="dialog_action_confirm">Quit round</string>
+    <string name="dialog_action_cancel">Keep playing</string>
 
     <!-- high scores screen -->
-    <string name="gtenp_high_scores_title">High Scores</string>
-    <string name="high_scores_empty">No records yet</string>
-    <string name="high_scores_filter_moves">Moves</string>
-    <string name="high_scores_filter_time">Time</string>
-    <string name="high_scores_filter_date">Date</string>
-    <string name="high_score_card_score_format">%1$d moves · %2$s</string>
-    <string name="high_score_card_rank_format">#%1$d</string>
-    <string name="high_score_card_moves_label">Moves</string>
-    <string name="high_score_card_time_label">Time</string>
-    <string name="high_score_card_date_label">Date</string>
+    <string name="gtenp_high_scores_title">Best Results</string>
+    <string name="high_scores_empty">Records will appear here</string>
+    <string name="high_scores_filter_moves">Turns</string>
+    <string name="high_scores_filter_time">Duration</string>
+    <string name="high_scores_filter_date">Played</string>
+    <string name="high_score_card_score_format">%1$d turns · %2$s</string>
+    <string name="high_score_card_rank_format">Rank %1$d</string>
+    <string name="high_score_card_moves_label">Turns</string>
+    <string name="high_score_card_time_label">Duration</string>
+    <string name="high_score_card_date_label">Played</string>
 
     <!-- about screen -->
-    <string name="gtenp_about_title">About</string>
-    <string name="about_rules_title">How to Play</string>
-    <string name="about_version_format">Version %1$s</string>
-    <string name="about_developer_label">Developer</string>
+    <string name="gtenp_about_title">Game Details</string>
+    <string name="about_rules_title">Playing Guide</string>
+    <string name="about_version_format">Release %1$s</string>
+    <string name="about_developer_label">Created by</string>
     <string name="gtenp_company_name" translatable="false">GOURMET PANTRY LIMITED</string>
-    <string name="about_contact_label">Contact</string>
+    <string name="about_contact_label">Get in Touch</string>
     <string name="gtenp_customer_support_link" translatable="false">http://gourmet-pantry.xyz</string>
 
     <string-array name="about_rules">
-        <item>All cards are shown for a few seconds — remember where each one is.</item>
-        <item>Then the cards are hidden. Tap a card to flip it.</item>
-        <item>Find the matching pair for the flipped card.</item>
-        <item>Pick a difficulty: the harder the level, the more cards on the field.</item>
+        <item>For a few seconds, every card is face up — memorize each position.</item>
+        <item>The cards then turn face down. Tap one to reveal it.</item>
+        <item>Look for the card that matches the one you revealed.</item>
+        <item>Choose a level: harder levels place more cards on the board.</item>
     </string-array>
 </resources>
