@@ -1,0 +1,41 @@
+AssetBasedConstructor
+donor: GameAppDonor (app.game.donor)
+project: Cwaore Casting (gourmet.cwaorecasting.hubapp)
+prefix: GTENP
+seed: 8013499449452579173
+app/src/main/java/app/game/donor/ui/composable/approot/background -> v_fade
+app/src/main/java/app/game/donor/ui/composable/approot/background/points -> v_grid_regular
+app/src/main/java/app/game/donor/ui/composable/approot/topbar -> v_primary
+app/src/main/java/app/game/donor/ui/composable/screen/about/card -> v_icon_trailing
+app/src/main/java/app/game/donor/ui/composable/screen/about/rules/header -> v_icon
+app/src/main/java/app/game/donor/ui/composable/screen/about/rules/list -> v_numbered
+app/src/main/java/app/game/donor/ui/composable/screen/difficulty/option/content -> v_meter_top
+app/src/main/java/app/game/donor/ui/composable/screen/difficulty/option/meter -> v_flames
+app/src/main/java/app/game/donor/ui/composable/screen/difficulty/option/shell -> v_tonal
+app/src/main/java/app/game/donor/ui/composable/screen/game/card -> v_fade
+app/src/main/java/app/game/donor/ui/composable/screen/game/card/back -> v_framed
+app/src/main/java/app/game/donor/ui/composable/screen/game/card/feedback/deal -> v_cascade
+app/src/main/java/app/game/donor/ui/composable/screen/game/card/feedback/match -> v_ring
+app/src/main/java/app/game/donor/ui/composable/screen/game/card/feedback/mismatch -> v_shake
+app/src/main/java/app/game/donor/ui/composable/screen/game/field/shell -> v_tonal
+app/src/main/java/app/game/donor/ui/composable/screen/game/hud/content -> v_progress
+app/src/main/java/app/game/donor/ui/composable/screen/game/hud/shell -> v_tonal
+app/src/main/java/app/game/donor/ui/composable/screen/game/symbols -> v_nature
+app/src/main/java/app/game/donor/ui/composable/screen/high_scores/card -> v_stat_columns
+app/src/main/java/app/game/donor/ui/composable/screen/high_scores/filter -> v_surface
+app/src/main/java/app/game/donor/ui/composable/screen/high_scores/filter/chip -> v_icon
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/block/content -> v_text_only
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/block/shell -> v_tonal
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/difficulty -> v_cards
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/header -> v_badge
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/layout -> v_stack
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/scores -> v_stats_stacked
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/start -> v_button
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/start/pulse -> v_halo
+app/src/main/java/app/game/donor/ui/composable/screen/main_menu/content/start/pulse/timing -> v_calm
+app/src/main/java/app/game/donor/ui/composable/screen/shared/button -> v_icon
+app/src/main/java/app/game/donor/ui/composable/screen/shared/modifier/press -> v_squish
+app/src/main/java/app/game/donor/ui/composable/screen/splash -> v_bounce
+app/src/main/java/app/game/donor/ui/theme -> v_cp164
+app/src/main/java/app/game/donor/ui/theme/dimens -> v_cozy
+app/src/main/java/app/game/donor/ui/theme/typography -> v_font_arcade
