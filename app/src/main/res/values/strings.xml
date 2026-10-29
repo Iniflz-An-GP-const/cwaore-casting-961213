@@ -84,4 +84,9 @@
         <item>Look for the card that matches the one you revealed.</item>
         <item>Choose a level: harder levels place more cards on the board.</item>
     </string-array>
+    <string name="high_scores_reset">Reset records</string>
+    <string name="dialog_reset_title">Reset all records?</string>
+    <string name="dialog_reset_message">Every saved result will be deleted.</string>
+    <string name="dialog_reset_confirm">Reset</string>
+    <string name="about_copyright_format" translatable="false">© %1$d %2$s. All rights reserved.</string>
 </resources>

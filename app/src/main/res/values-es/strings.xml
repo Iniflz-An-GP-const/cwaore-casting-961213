@@ -62,4 +62,8 @@
         <item>Busca la carta que coincide con la que has descubierto.</item>
         <item>Elige un nivel: cuanto más difícil sea, más cartas habrá en el tablero.</item>
     </string-array>
+    <string name="high_scores_reset">Borrar récords</string>
+    <string name="dialog_reset_title">¿Borrar todos los récords?</string>
+    <string name="dialog_reset_message">Se borrarán todos los resultados guardados.</string>
+    <string name="dialog_reset_confirm">Borrar</string>
 </resources>

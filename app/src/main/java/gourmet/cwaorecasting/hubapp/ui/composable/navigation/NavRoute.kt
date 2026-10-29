@@ -17,5 +17,5 @@ sealed class NavRoute {
     object HighScores : NavRoute()
 
     @Serializable
-    data class Game(val difficulty: Difficulty) : NavRoute()
+    data class Game(val difficulty: Difficulty = Difficulty.Easy) : NavRoute()
 }

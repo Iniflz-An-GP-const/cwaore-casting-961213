@@ -62,4 +62,8 @@
         <item>Procure a carta que corresponde à carta revelada.</item>
         <item>Escolha um nível: níveis mais difíceis colocam mais cartas no tabuleiro.</item>
     </string-array>
+    <string name="high_scores_reset">Apagar recordes</string>
+    <string name="dialog_reset_title">Apagar todos os recordes?</string>
+    <string name="dialog_reset_message">Todos os resultados salvos serão apagados.</string>
+    <string name="dialog_reset_confirm">Apagar</string>
 </resources>

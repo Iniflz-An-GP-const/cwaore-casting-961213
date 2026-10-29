@@ -62,4 +62,8 @@
         <item>खोले गए कार्ड से मेल खाने वाला कार्ड ढूँढें।</item>
         <item>स्तर चुनें: कठिन स्तर पर बोर्ड में अधिक कार्ड होते हैं।</item>
     </string-array>
+    <string name="high_scores_reset">रिकॉर्ड मिटाएँ</string>
+    <string name="dialog_reset_title">सभी रिकॉर्ड मिटाएँ?</string>
+    <string name="dialog_reset_message">सहेजे गए सभी परिणाम हटा दिए जाएँगे।</string>
+    <string name="dialog_reset_confirm">मिटाएँ</string>
 </resources>

@@ -15,9 +15,15 @@ import androidx.compose.material.icons.filled.Numbers
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.StarBorder
 import androidx.compose.material.icons.filled.Timer
+import androidx.compose.material.icons.filled.DeleteSweep
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import gourmet.cwaorecasting.hubapp.R
@@ -30,6 +36,7 @@ import gourmet.cwaorecasting.hubapp.ui.composable.screen.high_scores.card.HighSc
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.high_scores.card.HighScoreCard
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.high_scores.filter.HighScoreFilterItem
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.high_scores.filter.HighScoreFilter
+import gourmet.cwaorecasting.hubapp.ui.composable.screen.shared.ConfirmationDialog
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.shared.DataBasedContainer
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.shared.DataEmptyContent
 import gourmet.cwaorecasting.hubapp.ui.state.DataUiState
@@ -51,11 +58,37 @@ fun GTENPHighScoresScreen(
     val selectedDifficulty by viewModel.selectedDifficultyState.collectAsState()
     val selectedSortType by viewModel.selectedSortTypeState.collectAsState()
     val dimens = LocalDimens.current
+    val hasScores by viewModel.hasScoresState.collectAsState()
+
+    var showResetDialog by remember { mutableStateOf(false) }
+
+    if (showResetDialog) {
+        ConfirmationDialog(
+            title = stringResource(R.string.dialog_reset_title),
+            message = stringResource(R.string.dialog_reset_message),
+            confirmText = stringResource(R.string.dialog_reset_confirm),
+            onConfirm = {
+                showResetDialog = false
+                viewModel.deleteHighScores()
+            },
+            onDismiss = { showResetDialog = false },
+        )
+    }
 
     Column(modifier = modifier.fillMaxSize()) {
         AppTopBar(
             title = stringResource(R.string.gtenp_high_scores_title),
             onNavigateBack = onBackClick,
+            actions = {
+                if (hasScores) {
+                    IconButton(onClick = { showResetDialog = true }) {
+                        Icon(
+                            imageVector = Icons.Filled.DeleteSweep,
+                            contentDescription = stringResource(R.string.high_scores_reset),
+                        )
+                    }
+                }
+            },
         )
 
         HighScoreFilter(

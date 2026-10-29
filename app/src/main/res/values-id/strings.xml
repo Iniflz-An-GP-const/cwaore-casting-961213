@@ -62,4 +62,8 @@
         <item>Cari kartu yang cocok dengan kartu yang kamu buka.</item>
         <item>Pilih level: makin sulit levelnya, makin banyak kartu di papan.</item>
     </string-array>
+    <string name="high_scores_reset">Hapus rekor</string>
+    <string name="dialog_reset_title">Hapus semua rekor?</string>
+    <string name="dialog_reset_message">Semua hasil yang tersimpan akan dihapus.</string>
+    <string name="dialog_reset_confirm">Hapus</string>
 </resources>

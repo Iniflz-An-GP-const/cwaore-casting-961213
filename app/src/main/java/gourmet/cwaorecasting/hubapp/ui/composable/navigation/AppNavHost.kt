@@ -6,6 +6,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navDeepLink
 import androidx.navigation.toRoute
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.about.GTENPAboutScreen
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.game.GTENPGameScreen
@@ -38,7 +39,9 @@ fun AppNavHost(
             )
         }
 
-        composable<NavRoute.MainMenu> {
+        composable<NavRoute.MainMenu>(
+            deepLinks = listOf(navDeepLink { uriPattern = "cwaorecasting://app/home" })
+        ) {
             GTENPMainMenuScreen(
                 onPlayClick = { difficulty ->
                     navController.navigate(
@@ -53,7 +56,12 @@ fun AppNavHost(
             )
         }
 
-        composable<NavRoute.Game> { backStackEntry ->
+        composable<NavRoute.Game>(
+            deepLinks = listOf(
+                navDeepLink { uriPattern = "cwaorecasting://app/game?difficulty={difficulty}" },
+                navDeepLink { uriPattern = "cwaorecasting://app/game" },
+            )
+        ) { backStackEntry ->
             val route = backStackEntry.toRoute<NavRoute.Game>()
             GTENPGameScreen(
                 difficulty = route.difficulty,
@@ -68,11 +76,15 @@ fun AppNavHost(
             )
         }
 
-        composable<NavRoute.About> {
+        composable<NavRoute.About>(
+            deepLinks = listOf(navDeepLink { uriPattern = "cwaorecasting://app/about" })
+        ) {
             GTENPAboutScreen(onBackClick = { navController.popBackStack() })
         }
 
-        composable<NavRoute.HighScores> {
+        composable<NavRoute.HighScores>(
+            deepLinks = listOf(navDeepLink { uriPattern = "cwaorecasting://app/highscores" })
+        ) {
             GTENPHighScoresScreen(onBackClick = { navController.popBackStack() })
         }
     }

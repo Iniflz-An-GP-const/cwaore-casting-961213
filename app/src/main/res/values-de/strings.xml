@@ -62,4 +62,8 @@
         <item>Suche die Karte, die zur aufgedeckten Karte passt.</item>
         <item>Wähle ein Level: Je schwieriger, desto mehr Karten liegen auf dem Feld.</item>
     </string-array>
+    <string name="high_scores_reset">Rekorde löschen</string>
+    <string name="dialog_reset_title">Alle Rekorde löschen?</string>
+    <string name="dialog_reset_message">Alle gespeicherten Ergebnisse werden gelöscht.</string>
+    <string name="dialog_reset_confirm">Löschen</string>
 </resources>

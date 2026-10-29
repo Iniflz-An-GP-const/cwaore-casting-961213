@@ -45,7 +45,8 @@ fun SystemBarsVisibility(visible: Boolean) {
         if (visible) {
             controller.show(WindowInsetsCompat.Type.systemBars())
         } else {
-            controller.hide(WindowInsetsCompat.Type.systemBars())
+            controller.show(WindowInsetsCompat.Type.statusBars())
+            controller.hide(WindowInsetsCompat.Type.navigationBars())
         }
 
         onDispose {

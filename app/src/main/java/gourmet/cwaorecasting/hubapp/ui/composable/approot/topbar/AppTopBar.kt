@@ -1,6 +1,7 @@
 package gourmet.cwaorecasting.hubapp.ui.composable.approot.topbar
 
 import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -48,6 +49,7 @@ fun AppTopBar(
             }
         },
         actions = actions,
+        windowInsets = WindowInsets(0, 0, 0, 0),
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = containerColor,
             titleContentColor = MaterialTheme.colorScheme.onPrimary,

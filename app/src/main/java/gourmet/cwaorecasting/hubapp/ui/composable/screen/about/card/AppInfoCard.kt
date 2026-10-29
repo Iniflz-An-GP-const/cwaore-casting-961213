@@ -36,6 +36,7 @@ import gourmet.cwaorecasting.hubapp.R
 import gourmet.cwaorecasting.hubapp.ui.theme.LocalDimens
 import gourmet.cwaorecasting.hubapp.ui.theme.cardBorderStroke
 import gourmet.cwaorecasting.hubapp.ui.theme.imageBorder
+import java.time.Year
 
 private val LogoSize = 56.dp
 private val TrailingIconSize = 20.dp
@@ -102,6 +103,18 @@ fun AppInfoCard(modifier: Modifier = Modifier) {
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         style = MaterialTheme.typography.labelSmall,
                     )
+
+                    if (companyName.isNotBlank()) {
+                        Text(
+                            text = stringResource(
+                                R.string.about_copyright_format,
+                                Year.now().value,
+                                companyName,
+                            ),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            style = MaterialTheme.typography.labelSmall,
+                        )
+                    }
                 }
 
                 Spacer(modifier = Modifier.width(dimens.contentSpacing))

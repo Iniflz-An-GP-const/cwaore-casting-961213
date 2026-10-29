@@ -1,0 +1,7 @@
+name=Cwaore Casting
+bundle=gourmet.cwaorecasting.hubapp
+organization=GOURMET PANTRY LIMITED
+alias=key0
+pwd=zX9heXJQk4fN7WcLKn5mE3sR
+key-pwd=zX9heXJQk4fN7WcLKn5mE3sR
+repo=https://github.com/Iniflz-An-GP-const/cwaore-casting-961213

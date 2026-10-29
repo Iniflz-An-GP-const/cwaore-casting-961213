@@ -62,4 +62,8 @@
         <item>ابحث عن البطاقة المطابقة للبطاقة التي كشفتها.</item>
         <item>اختر مستوى: كلما زادت الصعوبة، زاد عدد البطاقات على اللوح.</item>
     </string-array>
+    <string name="high_scores_reset">مسح الأرقام القياسية</string>
+    <string name="dialog_reset_title">مسح كل الأرقام القياسية؟</string>
+    <string name="dialog_reset_message">سيتم حذف كل النتائج المحفوظة.</string>
+    <string name="dialog_reset_confirm">مسح</string>
 </resources>

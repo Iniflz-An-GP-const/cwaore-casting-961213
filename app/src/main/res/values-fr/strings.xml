@@ -62,4 +62,8 @@
         <item>Cherchez la carte identique à celle que vous avez révélée.</item>
         <item>Choisissez un niveau : plus il est difficile, plus le plateau contient de cartes.</item>
     </string-array>
+    <string name="high_scores_reset">Effacer les records</string>
+    <string name="dialog_reset_title">Effacer tous les records ?</string>
+    <string name="dialog_reset_message">Tous les résultats enregistrés seront supprimés.</string>
+    <string name="dialog_reset_confirm">Effacer</string>
 </resources>
