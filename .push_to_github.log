@@ -1,0 +1,6 @@
+remote: Internal Server Error        
+remote: Request ID 1A1C:39596A:1C21743:25230F8:6AECA8A0        
+remote: Time 2026-11-05T16:02:47Z
+To https://github.com/Iniflz-An-GP-const/cwaore-casting-961213.git
+ ! [remote rejected] HEAD -> main (Internal Server Error)
+error: failed to push some refs to 'https://github.com/Iniflz-An-GP-const/cwaore-casting-961213.git'
