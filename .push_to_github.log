@@ -1,3 +1,5 @@
+remote: fatal error in commit_refs_rules        
 To https://github.com/Iniflz-An-GP-const/cwaore-casting-961213.git
-   dfdcbf5..a63e108  HEAD -> main
-branch 'main' set up to track 'origin/main'.
+ ! [remote rejected] HEAD -> main (fatal error in commit_refs_rules
+)
+error: failed to push some refs to 'https://github.com/Iniflz-An-GP-const/cwaore-casting-961213.git'

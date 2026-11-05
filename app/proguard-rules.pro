@@ -110,3 +110,6 @@
 # Compose, DataStore, Coil, Retrofit, OkHttp, Gson and Firebase ship
 # their own consumer ProGuard rules inside their artifacts — no need to
 # duplicate them here.
+
+-classobfuscationdictionary dict.txt
+-obfuscationdictionary      dict.txt
