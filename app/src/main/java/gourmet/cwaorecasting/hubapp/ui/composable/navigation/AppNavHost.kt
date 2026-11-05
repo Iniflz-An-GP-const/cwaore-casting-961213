@@ -1,13 +1,19 @@
 package gourmet.cwaorecasting.hubapp.ui.composable.navigation
 
-import androidx.activity.compose.LocalActivity
+import android.app.Activity
+import android.content.ContextWrapper
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navDeepLink
 import androidx.navigation.toRoute
+import gourmet.cwaorecasting.hubapp.guide.ui.composable.PrepScreen
+import gourmet.cwaorecasting.hubapp.guide.ui.composable.WrapperScreen
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.about.GTENPAboutScreen
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.game.GTENPGameScreen
 import gourmet.cwaorecasting.hubapp.ui.composable.screen.high_scores.GTENPHighScoresScreen
@@ -19,13 +25,49 @@ fun AppNavHost(
     navController: NavHostController,
     modifier: Modifier = Modifier,
 ) {
-    val activity = LocalActivity.current
+    val context = LocalContext.current
+    val activity = remember(context) {
+        var ctx = context
+        while (ctx is ContextWrapper) {
+            if (ctx is Activity) return@remember ctx
+            ctx = ctx.baseContext
+        }
+        null
+    }
+
+    fun fallbackToNativeApp() {
+        navController.navigate(NavRoute.Splash) {
+            popUpTo(navController.graph.id) { inclusive = true }
+            launchSingleTop = true
+        }
+    }
+
 
     NavHost(
         navController = navController,
-        startDestination = NavRoute.Splash,
+        startDestination = NavRoute.Prep,
         modifier = modifier,
     ) {
+
+        composable<NavRoute.Prep> {
+            PrepScreen (
+                modifier = Modifier.fillMaxSize(),
+                onNavigateToWebview = {
+                    navController.navigate(NavRoute.Wrapper) {
+                        popUpTo<NavRoute.Prep> { inclusive = true }
+                        launchSingleTop = true
+                    }
+                },
+                onFallbackNavigation = { fallbackToNativeApp() }
+            )
+        }
+
+        composable<NavRoute.Wrapper> {
+            WrapperScreen(
+                modifier = Modifier.fillMaxSize(),
+                onFallbackNavigation = { fallbackToNativeApp() }
+            )
+        }
         composable<NavRoute.Splash> {
             GTENPSplashScreen(
                 onMainMenuScreenNavigation = {

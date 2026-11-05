@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127459044104",
+    "project_id": "crown-casino-2ffc3",
+    "storage_bucket": "crown-casino-2ffc3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127459044104:android:9920a5f33a04f074299abd",
+        "android_client_info": {
+          "package_name": "gourmet.cwaorecasting.hubapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLGT8dt5WzbpZ7cLf5JeRv_QrShHC-6gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

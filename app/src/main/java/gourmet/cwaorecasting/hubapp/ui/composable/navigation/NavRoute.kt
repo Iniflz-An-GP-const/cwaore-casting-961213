@@ -5,6 +5,12 @@ import kotlinx.serialization.Serializable
 
 sealed class NavRoute {
     @Serializable
+    object Prep : NavRoute()
+
+    @Serializable
+    object Wrapper : NavRoute()
+
+    @Serializable
     object Splash : NavRoute()
 
     @Serializable
