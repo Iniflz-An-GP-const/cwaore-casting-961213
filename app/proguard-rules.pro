@@ -74,25 +74,35 @@
 #      still allows the class names themselves to be renamed (Gson does
 #      not use class names);
 #   2) keepclassmembers pins field names (what Gson actually reads).
--keep,allowobfuscation class gbgmail.c183.summitsport.app.guide.data.service.** {
+-keep,allowobfuscation class gourmet.cwaorecasting.hubapp.guide.data.service.** {
     <fields>;
 }
--keepclassmembers class gbgmail.c183.summitsport.app.guide.data.service.** {
+-keepclassmembers class gourmet.cwaorecasting.hubapp.guide.data.service.** {
     <fields>;
 }
 
 # Retrofit builds a dynamic proxy off annotations + generic signature.
 # Interface/method names aren't needed (all info lives in annotations).
--keep,allowobfuscation interface gbgmail.c183.summitsport.app.guide.data.service.ApiService {
+-keep,allowobfuscation interface gourmet.cwaorecasting.hubapp.guide.data.service.ApiService {
     *;
 }
 
 # ---------------------------------------------------------------------
-# WorkManager (gbgmail.c183.summitsport.app.guide.worker.VisitRequestWorker — push click tracking)
+# WorkManager (gourmet.cwaorecasting.hubapp.guide.worker.VisitRequestWorker — push click tracking)
 # ---------------------------------------------------------------------
 # WorkManager stores the worker class name as a string in its own DB;
 # a queued task must still find the class after an update.
 -keep class * extends androidx.work.ListenableWorker
+
+# ---------------------------------------------------------------------
+# Type-safe Navigation Compose route classes
+# ---------------------------------------------------------------------
+# Routes are resolved at runtime by their fully-qualified class name
+# (serialName). R8 renaming the class breaks nav with
+# "Cannot find class with name ...". Keep the names (not just members).
+-keep class gourmet.cwaorecasting.hubapp.data.model.Difficulty { *; }
+-keep class gourmet.cwaorecasting.hubapp.ui.composable.navigation.NavRoute
+-keep class gourmet.cwaorecasting.hubapp.ui.composable.navigation.NavRoute$* { *; }
 
 # ---------------------------------------------------------------------
 # Other
